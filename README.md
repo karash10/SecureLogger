@@ -1,6 +1,5 @@
 # SecureLogger
 
-SecureLogger 
 SecureLogger is a Python-based cyber deception tool that uses a Generative Adversarial Network (GAN) to flood web server access logs with realistic, plausible, but entirely fake log entries. Its purpose is to camouflage real user activity and make it significantly harder for an attacker to analyze log files for reconnaissance.
 
 Features
