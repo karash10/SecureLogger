@@ -16,3 +16,5 @@ GeneratorModel.pth
 *.npy
 *.txt
 *.log
+
+*.ipynb
