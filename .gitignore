@@ -1,0 +1,18 @@
+# Ignore temporary data files
+char_map.npy
+combined_dataset.txt
+dummy_access.log
+
+# Ignore PyTorch model files (These are usually very large)
+GeneratorModel.pth
+
+# You may also want to ignore all of these file types generically:
+# PyTorch/ML Models
+*.pth
+*.pt
+*.onnx
+
+# Data/Log Files
+*.npy
+*.txt
+*.log
