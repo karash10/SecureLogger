@@ -1,10 +1,6 @@
 # SecureLogger
 
-<<<<<<< HEAD
-SecureLogger is a Python-based cyber deception tool that uses a Generative Adversarial Network (GAN) to flood web server access logs with realistic, plausible, but entirely fake log entries. Its purpose is to camouflage real user activity and make it significantly harder for an attacker to analyze log files for reconnaissance.
-=======
 SecureLogger is a Python-based cyber deception tool that uses a Generative Adversarial Network (GAN) to flood web server access logs with realistic, plausible, but entirely fake log entries. Its purpose is to obfuscate real user activity, helping defenders mask true traffic patterns and frustrate attackers or unauthorized auditors.
->>>>>>> b96c880 (updated readme file)
 
 ## Features
 
@@ -82,9 +78,7 @@ In a separate terminal, run the log watcher script (runs continuously):
 python Flooder.py
 ```
 
-<<<<<<< HEAD
-Test: Visit a page on your website. The watcher will automatically detect the new log and inject a flood of fake ones.
-=======
+
 ### Test
 
 Visit a page on your website. The watcher will automatically detect the new log and inject a flood of fake ones.
@@ -121,4 +115,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 
 For questions or support, please open an issue or contact [karash10](https://github.com/karash10).
->>>>>>> b96c880 (updated readme file)
